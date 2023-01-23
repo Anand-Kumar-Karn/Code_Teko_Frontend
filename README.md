@@ -2,4 +2,4 @@
 This is project of Code Teko website.
 
 
-I designed the Website of Code Teko.
+Code Teko is a online code learning website.
