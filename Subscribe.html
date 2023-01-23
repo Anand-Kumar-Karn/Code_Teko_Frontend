@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Code Teko</title>
+    <link href="Style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <!-------Sub-header------->
+    <section class="sub-header">
+       <nav>
+            <a href="index.html"><img src="images/logo.png" width="100px"/></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="courses.html">COURSE</a></li>
+                   <li><a href="codes.html">CODES</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="">SUBSCRIBE</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></></i>
+       </nav>
+       <h1>Subscribe</h1>
+    </section>
+      <section class="course">
+        <h1> Subscribe Us </h1>
+        <p>Subscribe us to get updates of our courses, code files e.t.c. </p>
+    </section>
+    <div class="susbcribe">
+        <div class="card">
+            <div class="inner-box">
+                <div class="card-front">
+                    <h2>LogIn</h2>
+                    <form>
+                    <input id="Text1" type="email" class="input-box" placeholder="Your Email Id" required/>
+                    <input id="password" type="password" class="input-box" placeholder="Password" required/>
+                    <button type="submit" class="submit-btn">Submit</button>
+                    <input type="checkbox" /><span>Remember Me</span>
+                    </form>
+                </div>
+                <div class="card-back"></div>
+            </div>
+        </div>
+    </div>
+
+    <!------Footer-------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Code Teko is official coding Website. It provides you multiple courses such as C programming, C++ Programming, <br /> Java Programming,
+            Python Programming. Globally, it is one of the best website to learn code online. 
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Code Teko </p>
+    </section>
+     <footer class="footer1">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer1-col">
+  	 			<h4>Links</h4>
+  	 			<ul>
+                       <li><a href="index.html">home</a></li>
+  	 				<li><a href="about.html">about us</a></li>
+  	 				<li><a href="#">Courses</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer1-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="courses.html">FAQ</a></li>
+                    <li><a href="courses.html">Doubt solution</a></li>
+  	 				<li><a href="courses.html">Comments</a></li>
+  	 				<li><a href="contact.html">Contact us</a></li>
+  	 				<li><a href="contact.html">Support us</a></li>
+  	 				
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer1-col">
+  	 			<h4>Office</h4>
+  	 			<ul>
+  	 				<li><a href="contact.html">XYZ Road</a></li>
+  	 				<li><a href="contact.html">ABC Building</a></li>
+  	 				<li><a href="contact.html">Bangalore</a></li>
+  	 				<li><a href="contact.html">Karnataka, INDIA</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer1-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fa fa-facebook"></i></a>
+  	 				<a href="#"><i class="fa fa-twitter"></i></a>
+  	 				<a href="#"><i class="fa fa-instagram"></i></a>
+  	 				<a href="#"><i class="fa fa-linkedin"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+    
+     <!---- JavaScript for Toggle Menu --------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
