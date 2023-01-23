@@ -1,5 +1,5 @@
-# Code_Teko_Frontend
+# Code_Teko_Website
 This is project of Code Teko website.
 
 
-I designed the Frontend of Code Teko Website.
+I designed the Website of Code Teko.
